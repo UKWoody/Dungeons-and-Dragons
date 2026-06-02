@@ -2,22 +2,28 @@
   "id": "the-obelisk-sage",
   "title": "The Obelisk Sage",
   "description": "A collection of powerful D&D 5e artifacts including The Black Oracle, The Crimson Visage, and The Infernal Choker of Bel.",
-  "author": "UKWoody",
+  "authors": [
+    {
+      "name": "UKWoody"
+    }
+  ],
   "version": "1.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
   },
-  "url": "https://github.com/yourusername/the-obelisk-sage",
-  "readme": "README.md",
-  "bugs": "https://github.com/yourusername/the-obelisk-sage/issues",
-  "changelog": "CHANGELOG.md",
+  "url": "https://github.com/UKWoody/Dungeons-and-Dragons",
+  "manifest": "https://raw.githubusercontent.com/UKWoody/Dungeons-and-Dragons/main/module.json",
+  "download": "https://github.com/UKWoody/Dungeons-and-Dragons/archive/refs/heads/main.zip",
+  "readme": "https://github.com/UKWoody/Dungeons-and-Dragons/blob/main/README.md",
+  "bugs": "https://github.com/UKWoody/Dungeons-and-Dragons/issues",
+  "changelog": "https://github.com/UKWoody/Dungeons-and-Dragons/blob/main/CHANGELOG.md",
   "packs": [
     {
       "name": "artifacts",
       "label": "Artifacts",
       "type": "Item",
-      "path": "packs/artifacts",
+      "path": "packs/artifacts.db",
       "system": "dnd5e"
     }
   ],
