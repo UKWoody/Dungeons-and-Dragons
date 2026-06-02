@@ -1,0 +1,86 @@
+{
+  "name": "The Crimson Visage",
+  "type": "loot",
+  "data": {
+    "description": {
+      "value": "<p><strong>Wondrous Item (Artifact), requires attunement</strong></p>\n<p>A black steel helm adorned with crimson filigree and stylized bat-wing motifs. While worn, the interior remains pleasantly warm regardless of the surrounding temperature.</p>\n<p>Only the wearer can hear the voice within.</p>\n<p>The voice insists upon one undeniable truth:</p>\n<p><em>\"You are a vampire.\"</em></p>\n<p>Any evidence to the contrary is immediately dismissed.</p>\n<p>The Visage interprets every success as proof of the wearer's hidden vampiric nature and every failure as a temporary inconvenience suffered by an immortal being.</p>\n\n<h2>Dormant Powers</h2>\n\n<h3>Eyes of the Night</h3>\n<p>You gain darkvision out to 60 feet. If you already possess darkvision, its range increases by 30 feet.</p>\n\n<h3>Predatory Instinct</h3>\n<p>As a bonus action, invoke the Visage.</p>\n<p>Choose one:</p>\n<ul>\n<li>Athletics</li>\n<li>Intimidation</li>\n<li>Perception</li>\n<li>Stealth</li>\n</ul>\n<p>You gain advantage on the next ability check made using that skill within 1 minute.</p>\n<p><strong>Uses equal to your proficiency bonus per long rest.</strong></p>\n\n<h3>Blood Will Tell</h3>\n<p>Once per long rest, when you would be reduced to 0 hit points but not killed outright, you instead drop to 1 hit point.</p>\n<p>The Visage insists this is evidence of your immortal nature.</p>\n\n<h3>Noble Bearing</h3>\n<p>You gain proficiency in Persuasion. If already proficient, gain expertise instead.</p>\n\n<h2>Personality</h2>\n<blockquote>\n<p>\"A common vampire mistake.\"</p>\n<p>\"Your bloodline remains impressive.\"</p>\n<p>\"That peasant was clearly intimidated.\"</p>\n<p>\"An ancient vampiric technique.\"</p>\n<p>\"You continue to exceed expectations.\"</p>\n</blockquote>"
+    },
+    "rarity": "artifact",
+    "attunement": 1,
+    "equipped": false,
+    "weight": 3,
+    "price": 0,
+    "quantity": 1,
+    "identified": true,
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "lr"
+    }
+  },
+  "effects": [
+    {
+      "label": "Eyes of the Night",
+      "type": "feat",
+      "data": {
+        "description": "You gain darkvision out to 60 feet. If you already possess darkvision, its range increases by 30 feet."
+      },
+      "changes": [
+        {
+          "key": "data.traits.darkvision",
+          "value": 60,
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Predatory Instinct",
+      "type": "feat",
+      "data": {
+        "description": "As a bonus action, invoke the Visage. Choose one skill (Athletics, Intimidation, Perception, Stealth). You gain advantage on the next ability check made using that skill within 1 minute. Uses equal to your proficiency bonus per long rest."
+      },
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Blood Will Tell",
+      "type": "feat",
+      "data": {
+        "description": "Once per long rest, when you would be reduced to 0 hit points but not killed outright, you instead drop to 1 hit point. The Visage insists this is evidence of your immortal nature."
+      },
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Noble Bearing",
+      "type": "feat",
+      "data": {
+        "description": "You gain proficiency in Persuasion. If already proficient, gain expertise instead."
+      },
+      "changes": [
+        {
+          "key": "data.skills.prc.value",
+          "value": 1,
+          "mode": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": ""
+    }
+  }
+}

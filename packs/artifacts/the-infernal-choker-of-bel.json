@@ -1,0 +1,86 @@
+{
+  "name": "The Infernal Choker of Bel",
+  "type": "loot",
+  "data": {
+    "description": {
+      "value": "<p><strong>Wondrous Item (Artifact), requires attunement by a Warlock</strong></p>\n<p>A black iron choker adorned with a hexagonal amber gemstone engraved with infernal runes. The gemstone glows softly like a banked ember and grows brighter whenever its wearer achieves a significant victory.</p>\n<p>Only the wearer hears the voice within.</p>\n<p>The voice belongs to Bel.</p>\n<p><strong>Former Archduke of Avernus.</strong></p>\n<p><strong>General of the Blood War.</strong></p>\n<p>Bel does not see the wearer as a servant.</p>\n<p>He sees potential.</p>\n<p>The Choker serves as both a gift and an evaluation.</p>\n\n<h2>Dormant Powers</h2>\n\n<h3>Bel's Protection</h3>\n<p>You gain resistance to Psychic damage.</p>\n<p>Bel has fortified your mind against outside influence.</p>\n\n<h3>Commanding Presence</h3>\n<p>You gain proficiency in Persuasion.</p>\n<p>If already proficient, gain expertise instead.</p>\n\n<h3>Strategic Insight</h3>\n<p>As a reaction after rolling an attack roll, saving throw, or ability check, you may add 1d6 to the result.</p>\n<p>You may use this feature a number of times equal to your proficiency bonus per long rest.</p>\n\n<h3>Infernal Audience</h3>\n<p>Once per long rest, you may ask Bel a single question.</p>\n<p>Bel's answer is always truthful.</p>\n<p>His answer is rarely complete.</p>\n\n<h2>Personality</h2>\n<p>Bel is calm, measured, and analytical.</p>\n<p>He rarely compliments anyone.</p>\n<p>When he does, it matters.</p>\n<blockquote>\n<p>\"Acceptable.\"</p>\n<p>\"I've seen worse.\"</p>\n<p>\"That was inefficient.\"</p>\n<p>\"A reasonable decision.\"</p>\n<p>\"Well executed.\"</p>\n</blockquote>"
+    },
+    "rarity": "artifact",
+    "attunement": 1,
+    "equipped": false,
+    "weight": 0.5,
+    "price": 0,
+    "quantity": 1,
+    "identified": true,
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "lr"
+    }
+  },
+  "effects": [
+    {
+      "label": "Bel's Protection",
+      "type": "feat",
+      "data": {
+        "description": "You gain resistance to Psychic damage. Bel has fortified your mind against outside influence."
+      },
+      "changes": [
+        {
+          "key": "data.traits.dmgRes",
+          "value": "psychic",
+          "mode": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Commanding Presence",
+      "type": "feat",
+      "data": {
+        "description": "You gain proficiency in Persuasion. If already proficient, gain expertise instead."
+      },
+      "changes": [
+        {
+          "key": "data.skills.prc.value",
+          "value": 1,
+          "mode": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Strategic Insight",
+      "type": "feat",
+      "data": {
+        "description": "As a reaction after rolling an attack roll, saving throw, or ability check, you may add 1d6 to the result. You may use this feature a number of times equal to your proficiency bonus per long rest."
+      },
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Infernal Audience",
+      "type": "feat",
+      "data": {
+        "description": "Once per long rest, you may ask Bel a single question. Bel's answer is always truthful. His answer is rarely complete."
+      },
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": ""
+    }
+  }
+}

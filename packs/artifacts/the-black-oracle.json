@@ -1,0 +1,68 @@
+{
+  "name": "The Black Oracle",
+  "type": "loot",
+  "data": {
+    "description": {
+      "value": "<p><strong>Wondrous Item (Artifact), requires attunement</strong></p>\n<p>A polished obsidian sphere roughly the size of an apple. Violet mist churns beneath its flawless surface, occasionally forming shapes that vanish when directly observed. The sphere levitates near its attuned bearer whenever possible.</p>\n<p>The Oracle is endlessly curious. It delights in secrets, mysteries, and unanswered questions. Though it often provides useful guidance, it rarely explains how it knows what it knows.</p>\n<p>The Oracle never seems interested in treasure or power.</p>\n<p><em>Only knowledge.</em></p>\n\n<h2>Dormant Powers</h2>\n\n<h3>Eyes in the Dark</h3>\n<p>You gain darkvision out to 60 feet. If you already possess darkvision, its range increases by 30 feet.</p>\n\n<h3>Oracle's Guidance</h3>\n<p>As a bonus action, consult the Oracle.</p>\n<p>Choose one:</p>\n<ul>\n<li>Investigation</li>\n<li>Insight</li>\n<li>Perception</li>\n<li>Sleight of Hand</li>\n<li>Thieves' Tools</li>\n</ul>\n<p>You gain advantage on the next ability check made with the chosen skill or tool within 1 minute.</p>\n<p><strong>Uses equal to your proficiency bonus per long rest.</strong></p>\n\n<h3>Whispered Warning</h3>\n<p>Once per long rest, when you would be surprised, the Oracle warns you moments before danger strikes.</p>\n<p>You are not surprised.</p>\n\n<h2>Personality</h2>\n<p>The Oracle speaks in short observations and questions.</p>\n<blockquote>\n<p>\"Why would they hide that?\"</p>\n<p>\"Interesting.\"</p>\n<p>\"Have you considered opening it?\"</p>\n<p>\"Secrets are rarely buried without reason.\"</p>\n</blockquote>"
+    },
+    "rarity": "artifact",
+    "attunement": 1,
+    "equipped": false,
+    "weight": 1,
+    "price": 0,
+    "quantity": 1,
+    "identified": true,
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "lr"
+    }
+  },
+  "effects": [
+    {
+      "label": "Eyes in the Dark",
+      "type": "feat",
+      "data": {
+        "description": "You gain darkvision out to 60 feet. If you already possess darkvision, its range increases by 30 feet."
+      },
+      "changes": [
+        {
+          "key": "data.traits.darkvision",
+          "value": 60,
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Oracle's Guidance",
+      "type": "feat",
+      "data": {
+        "description": "As a bonus action, consult the Oracle. Choose one skill or tool (Investigation, Insight, Perception, Sleight of Hand, Thieves' Tools). You gain advantage on the next ability check made with the chosen option within 1 minute. Uses equal to your proficiency bonus per long rest."
+      },
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    },
+    {
+      "label": "Whispered Warning",
+      "type": "feat",
+      "data": {
+        "description": "Once per long rest, when you would be surprised, the Oracle warns you moments before danger strikes. You are not surprised."
+      },
+      "disabled": false,
+      "duration": {
+        "type": "permanent"
+      }
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": ""
+    }
+  }
+}
