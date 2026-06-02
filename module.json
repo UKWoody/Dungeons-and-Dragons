@@ -8,9 +8,11 @@
     "minimum": "11",
     "verified": "12"
   },
-  "url": "https://github.com/yourusername/the-obelisk-sage",
+  "url": "https://github.com/UKWoody/Dungeons-and-Dragons",
+  "manifest": "https://raw.githubusercontent.com/UKWoody/Dungeons-and-Dragons/main/module.json",
+  "download": "https://github.com/UKWoody/Dungeons-and-Dragons/archive/refs/heads/main.zip",
   "readme": "README.md",
-  "bugs": "https://github.com/yourusername/the-obelisk-sage/issues",
+  "bugs": "https://github.com/UKWoody/Dungeons-and-Dragons/issues",
   "changelog": "CHANGELOG.md",
   "packs": [
     {
